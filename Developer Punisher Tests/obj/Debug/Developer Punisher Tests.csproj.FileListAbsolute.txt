@@ -1,9 +1,0 @@
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\bin\Debug\Developer Punisher Tests.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\bin\Debug\Developer Punisher Tests.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\bin\Debug\Developer Punisher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\bin\Debug\Developer Punisher.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.xml
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\obj\Debug\Developer Punisher Tests.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher Tests\obj\Debug\Developer Punisher Tests.pdb
