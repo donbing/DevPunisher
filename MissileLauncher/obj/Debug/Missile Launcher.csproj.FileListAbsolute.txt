@@ -1,7 +1,0 @@
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\bin\Debug\MissileLauncher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\bin\Debug\MissileLauncher.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\bin\Debug\Missile Launcher Interface.dll
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\bin\Debug\Missile Launcher Interface.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\obj\Debug\MissileLauncher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\MissileLauncher\obj\Debug\MissileLauncher.pdb
