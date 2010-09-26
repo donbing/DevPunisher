@@ -1,0 +1,52 @@
+﻿<freeStyleBuild>
+  <action>
+    <cause>
+      <shortDescription>Started by user anonymous</shortDescription>
+      <userName>anonymous</userName>
+    </cause>
+  </action>
+  <action></action>
+  <action></action>
+  <action></action>
+  <action></action>
+  <action>
+    <participant>
+      <absoluteUrl>http://marken-build.hudson.pinesoft.co.uk:8080/user/jonny</absoluteUrl>
+      <fullName>jonny</fullName>
+    </participant>
+    <scorecard>
+      <totalPoints>0.0</totalPoints>
+    </scorecard>
+  </action>
+  <building>false</building>
+  <duration>49280</duration>
+  <fullDisplayName>TrunkBuilder #2173</fullDisplayName>
+  <id>2010-03-29_14-09-23</id>
+  <keepLog>false</keepLog>
+  <number>2173</number>
+  <result>FAILURE</result>
+  <timestamp>1269868163576</timestamp>
+  <url>http://marken-build.hudson.pinesoft.co.uk:8080/job/TrunkBuilder/2173/</url>
+  <builtOn></builtOn>
+  <changeSet>
+    <item>
+      <date>2010-03-29T12:31:40.175049Z</date>
+      <msg>Sprint 39 Story 5: Added indexes and statistics recommended by Query Analyser to speed up job grid queries (for users with shipper/cnee country code filter rules).</msg>
+      <path>
+        <editType>add</editType>
+        <file>/trunk/Marken/ShipmentBookingWebService/SqlScripts/ReportingDbScripts/00029_SHIPPER+CNEE_IndexesToSpeedJobGrid.sql</file>
+      </path>
+      <revision>6627</revision>
+      <user>jonny</user>
+    </item>
+    <kind>svn</kind>
+    <revision>
+      <module>http://svn/DotNet/trunk/Marken</module>
+      <revision>6627</revision>
+    </revision>
+  </changeSet>
+  <culprit>
+    <absoluteUrl>http://marken-build.hudson.pinesoft.co.uk:8080/user/jonny</absoluteUrl>
+    <fullName>jonny</fullName>
+  </culprit>
+</freeStyleBuild>

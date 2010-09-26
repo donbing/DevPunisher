@@ -1,0 +1,17 @@
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\Service Factory.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\Service Factory.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\Build Fetcher.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\Missile Launcher Interface.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\MissileLauncher.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\StructureMap.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\USB Missile.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\USB Missile.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\Missile Launcher Interface.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\Build Fetcher.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\StructureMap.xml
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\MissileLauncher.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\obj\Debug\Service Factory.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\obj\Debug\Service Factory.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\BuildService.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Service Factory\bin\Debug\BuildService.pdb

@@ -21,6 +21,6 @@
   write targetting system for position tracking launcher se we can headshot the culprit
   
 * how to test xmlfetcher? cant get a buildnumber that's always valid :(
-  - maybe this should be part of a full integratio test?
+  - maybe this should be part of a full integration test?
   
 * build fetcher tests are using static xml examples, maybe fix this somehow?

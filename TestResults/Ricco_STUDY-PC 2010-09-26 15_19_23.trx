@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="70f6a317-4c71-4ded-8b96-50c336ac1e5e" name="Ricco@STUDY-PC 2010-09-26 15:19:23" runUser="STUDY-PC\Ricco" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="a2304970-15f4-4fec-80ad-cd0ab3cb3fb9">
+    <Deployment runDeploymentRoot="C:\Users\Ricco\Desktop\BuildWatcher\TestResults\Ricco_STUDY-PC 2010-09-26 15_19_23">
+      <DeploymentItem filename="C:\Users\Ricco\Desktop\BuildWatcher\Libs\RhinoMocks\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\BuildFetcherService.dll" />
+      <DeploymentItem filename="C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\bin\Debug\Build Fetcher.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-09-26T15:19:23.7830237+01:00" queuing="2010-09-26T15:19:24.0800237+01:00" start="2010-09-26T15:19:24.1040237+01:00" finish="2010-09-26T15:19:24.6100237+01:00" />
+  <TestDefinitions>
+    <UnitTest name="ShouldFetchJobXmlFromJobName" storage="c:\users\ricco\desktop\buildwatcher\tests\bin\debug\buildfetcher.tests.dll" id="ac8ff924-43df-b563-3c32-b34de68a5c6e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b0dad9af-ac7d-4aae-aa0f-f0cd6bc9a7cc" />
+      <TestMethod codeBase="C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildFetcher.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BuildFetcher.Tests.Integration.XmlFetcherTests, BuildFetcher.Tests" name="ShouldFetchJobXmlFromJobName" />
+    </UnitTest>
+    <UnitTest name="ShouldFetchBuildXmlFromBuildNumberAndJobName" storage="c:\users\ricco\desktop\buildwatcher\tests\bin\debug\buildfetcher.tests.dll" id="4b8eaab4-c220-290d-b3fa-b9b0f100b4c3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="32b5d79a-1ca2-4449-b2ae-acb1fd268e9f" />
+      <TestMethod codeBase="C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildFetcher.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BuildFetcher.Tests.Integration.XmlFetcherTests, BuildFetcher.Tests" name="ShouldFetchBuildXmlFromBuildNumberAndJobName" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4b8eaab4-c220-290d-b3fa-b9b0f100b4c3" executionId="32b5d79a-1ca2-4449-b2ae-acb1fd268e9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac8ff924-43df-b563-3c32-b34de68a5c6e" executionId="b0dad9af-ac7d-4aae-aa0f-f0cd6bc9a7cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="32b5d79a-1ca2-4449-b2ae-acb1fd268e9f" testId="4b8eaab4-c220-290d-b3fa-b9b0f100b4c3" testName="ShouldFetchBuildXmlFromBuildNumberAndJobName" computerName="STUDY-PC" duration="00:00:00.2694512" startTime="2010-09-26T15:19:24.1050237+01:00" endTime="2010-09-26T15:19:24.4560237+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BuildFetcher.Tests.Integration.XmlFetcherTests.ShouldFetchBuildXmlFromBuildNumberAndJobName threw exception:  System.Net.WebException: The remote server returned an error: (404) Not Found..</Message>
+          <StackTrace>    at System.Net.HttpWebRequest.GetResponse()
+   at System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at BuildFetcher.HudsonXmlFetcher.LoadXmlFrom(String uri) in C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\XmlFetcher.cs:line 36
+   at BuildFetcher.HudsonXmlFetcher.GetBuildXmlFor(String jobName, Int32 buildNumber) in C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\XmlFetcher.cs:line 31
+   at BuildFetcher.Tests.Integration.XmlFetcherTests.ShouldFetchBuildXmlFromBuildNumberAndJobName() in C:\Users\Ricco\Desktop\BuildWatcher\Tests\Tests\XmlFetcherTests.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0dad9af-ac7d-4aae-aa0f-f0cd6bc9a7cc" testId="ac8ff924-43df-b563-3c32-b34de68a5c6e" testName="ShouldFetchJobXmlFromJobName" computerName="STUDY-PC" duration="00:00:00.1449846" startTime="2010-09-26T15:19:24.4570237+01:00" endTime="2010-09-26T15:19:24.6040237+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
