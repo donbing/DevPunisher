@@ -1,5 +1,0 @@
-C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\bin\Debug\Build Fetcher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\bin\Debug\Build Fetcher.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\obj\Debug\Build Fetcher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\BuildFetcher\obj\Debug\Build Fetcher.pdb
