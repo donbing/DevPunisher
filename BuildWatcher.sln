@@ -33,12 +33,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AA579BB-6070-4C2E-9578-A951CB11BB02}"
 	ProjectSection(SolutionItems) = preProject
+		BuildWatcher.vsmdi = BuildWatcher.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		readme = readme
 		ScratchPad.txt = ScratchPad.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build Fetcher", "BuildFetcher\Build Fetcher.csproj", "{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build Fetcher Tests", "BuildFetcherTests\Build Fetcher Tests.csproj", "{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BuildWatcher.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -84,6 +92,10 @@ Global
 		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +107,7 @@ Global
 		{41522CF2-EB1B-4719-840B-88388D187B5F} = {C4B09139-C58F-4426-8C26-C9ECED7E8B82}
 		{F6004944-C4EA-46FA-A6C1-EB51AAFC6C00} = {C4B09139-C58F-4426-8C26-C9ECED7E8B82}
 		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF} = {C4B09139-C58F-4426-8C26-C9ECED7E8B82}
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA} = {C4B09139-C58F-4426-8C26-C9ECED7E8B82}
 		{B9E8462D-25A9-4673-A5E1-8AEDC4A78068} = {29AD2F56-31AC-40AC-8A6B-C06C7EC42F0A}
 		{499CBF64-9FD2-40F1-9898-0901202E4E31} = {29AD2F56-31AC-40AC-8A6B-C06C7EC42F0A}
 		{05930A91-7614-4F74-BEA6-AD33398C04D4} = {29AD2F56-31AC-40AC-8A6B-C06C7EC42F0A}

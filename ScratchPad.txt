@@ -3,13 +3,13 @@
 
 * modify autogeneration of freestyleBuild classes to call directly to hudson and get schema from there rather than using the static xml examples :)
 
-* add an unknown build state for when fetching build data fails 
+* add an unknown build state for when fetching build data fails ?
   deal with unknown build state in client
 
 * find where the lost missile launcher tests went and put the back in the sln
   they're higdden in the root tf the build service tests!
 
-* sometimes we may have > 1 culprit elements in build xml, deal with this somehow.
+* sometimes we may have > 1 culprit elements in build xml, deal with this somehow
 
 * maybe only put culprit on failed build class and have dev name on others?
 
@@ -19,7 +19,8 @@
 
 * implement position tracking missile launcher :)
   write targetting system for position tracking launcher se we can headshot the culprit
-
-
-
-
+  
+* how to test xmlfetcher? cant get a buildnumber that's always valid :(
+  - maybe this should be part of a full integratio test?
+  
+* build fetcher tests are using static xml examples, maybe fix this somehow?

@@ -1,7 +1,7 @@
 using System.ServiceModel;
 using BuildFetcher;
 
-namespace BuildFetcherService
+namespace Build_Service
 {
     [ServiceContract]
     public interface IBuildFetcherService
@@ -13,17 +13,17 @@ namespace BuildFetcherService
         Build GetBuild(string jobName, int buildnumber);
     }
 
-    public class HudsonBuildFetcher : IBuildFetcherService
+    public class BuildService : IBuildFetcherService
     {
         private readonly IHudsonXmlFetcher xmlFetcher;
         private readonly IBuildMapper buildMapper;
         private readonly IJobMapper jobMapper;
 
-        public HudsonBuildFetcher() : this(new HudsonXmlFetcher(), new BuildMapper(), new JobMapper())
+        public BuildService() : this(new HudsonXmlFetcher(), new BuildMapper(), new JobMapper())
         {
         }
 
-        public HudsonBuildFetcher(IHudsonXmlFetcher xmlFetcher, IBuildMapper buildMapper, IJobMapper jobMapper)
+        public BuildService(IHudsonXmlFetcher xmlFetcher, IBuildMapper buildMapper, IJobMapper jobMapper)
         {
             this.xmlFetcher = xmlFetcher;
             this.buildMapper = buildMapper;
