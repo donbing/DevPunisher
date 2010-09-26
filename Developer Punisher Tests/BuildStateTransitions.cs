@@ -13,9 +13,8 @@ namespace Developer_Punisher_Tests
     public abstract class WithDevPunisher
     {
         protected IMissileLauncherService missileService;
-        protected IBuildFetcherService buildService;
-        protected DevPunisher punisher;
-
+        private IBuildFetcherService buildService;
+        private DevPunisher punisher;
         private List<Build> buildUpdateOrder; 
 
         [TestInitialize]
