@@ -1,5 +1,0 @@
-C:\Users\Ricco\Desktop\BuildWatcher\Missile Launcher Interface\bin\Debug\Missile Launcher Interface.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Missile Launcher Interface\bin\Debug\Missile Launcher Interface.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\Missile Launcher Interface\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ricco\Desktop\BuildWatcher\Missile Launcher Interface\obj\Debug\Missile Launcher Interface.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Missile Launcher Interface\obj\Debug\Missile Launcher Interface.pdb
