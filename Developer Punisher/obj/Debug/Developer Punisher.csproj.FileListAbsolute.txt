@@ -1,6 +1,0 @@
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher\bin\Debug\Developer Punisher.dll.config
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher\bin\Debug\Developer Punisher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher\bin\Debug\Developer Punisher.pdb
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher\obj\Debug\Developer Punisher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Developer Punisher\obj\Debug\Developer Punisher.pdb
