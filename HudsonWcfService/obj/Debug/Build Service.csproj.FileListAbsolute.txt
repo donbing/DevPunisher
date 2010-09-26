@@ -1,7 +1,7 @@
-C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\Build Fetcher.dll
-C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\Build Fetcher.pdb
 C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\BuildService.dll
 C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\BuildService.pdb
 C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\obj\Debug\BuildService.dll
 C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\obj\Debug\BuildService.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\BuildFetcher.dll
+C:\Users\Ricco\Desktop\BuildWatcher\HudsonWcfService\bin\BuildFetcher.pdb

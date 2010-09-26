@@ -1,6 +1,6 @@
 using System.Xml.Linq;
 
-namespace BuildFetcher
+namespace Build_Fetcher
 {
     public interface IHudsonXmlFetcher
     {

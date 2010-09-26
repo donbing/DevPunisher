@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using BuildXml;
 using System.IO;
 
-namespace BuildFetcher
+namespace Build_Fetcher
 {
     public interface IBuildMapper
     {

@@ -1,5 +1,5 @@
 using System.ServiceModel;
-using BuildFetcher;
+using Build_Fetcher;
 
 namespace Build_Service
 {

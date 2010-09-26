@@ -1,6 +1,4 @@
-C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\Build Fetcher.dll
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\Rhino.Mocks.dll
-C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\Build Fetcher.pdb
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildService.Tests.dll.config
@@ -10,3 +8,5 @@ C:\Users\Ricco\Desktop\BuildWatcher\Tests\obj\Debug\BuildService.Tests.dll
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\obj\Debug\BuildService.Tests.pdb
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildService.dll
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildService.pdb
+C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildFetcher.dll
+C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildFetcher.pdb

@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 using System.Xml.Linq;
-using BuildFetcher;
+using Build_Fetcher;
 using Build_Service;
 
 namespace Build_Service.Tests

@@ -7,8 +7,8 @@
     <ProjectGuid>{5BB208E4-3AE8-4447-BBDE-F0268EB75255}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Developer_Punisher_Tests</RootNamespace>
-    <AssemblyName>Developer Punisher Tests</AssemblyName>
+    <RootNamespace>Developer_Punisher.Tests</RootNamespace>
+    <AssemblyName>Developer_Punisher.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

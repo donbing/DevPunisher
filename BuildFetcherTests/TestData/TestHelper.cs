@@ -6,11 +6,11 @@ using System.Reflection;
 using System.Xml.Linq;
 using System.Xml;
 
-namespace BuildFetcher.Tests
+namespace Build_Fetcher.Tests
 {
     public static class TestHelper
     {
-        private static Assembly testAssembly = Assembly.GetAssembly(typeof(BuildFetcher.Tests.TestHelper));
+        private static Assembly testAssembly = Assembly.GetAssembly(typeof(Build_Fetcher.Tests.TestHelper));
 
         public static XDocument SuccessfullBuildXml = GetXmlResource("successfullBuild");
         public static XDocument TrunkBuilderJobXml = GetXmlResource("TrunkBuilderJob");

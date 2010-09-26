@@ -2,7 +2,7 @@ using System;
 using System.Runtime.Serialization;
 using BuildXml;
 
-namespace BuildFetcher
+namespace Build_Fetcher
 {
     [DataContract]
     public class BuildingBuild : Build {

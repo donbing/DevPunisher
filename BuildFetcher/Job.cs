@@ -1,4 +1,4 @@
-namespace BuildFetcher
+namespace Build_Fetcher
 {
     public class Job
     {
