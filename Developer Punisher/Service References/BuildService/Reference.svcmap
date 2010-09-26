@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="41f9a27c-9812-40ee-9996-417a67efaa8a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1643/BuildService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BuildService.xsd" MetadataType="Schema" ID="2d4adf49-4bfb-4c6d-9b91-66bea197b1b3" SourceId="1" SourceUrl="http://localhost:1643/BuildService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HudsonBuildFetcher.wsdl" MetadataType="Wsdl" ID="b1f6edaa-c1a8-439a-b46b-f4628f19d111" SourceId="1" SourceUrl="http://localhost:1643/BuildService.svc?wsdl" />
+    <MetadataFile FileName="BuildService.disco" MetadataType="Disco" ID="a999d488-d05f-44b2-aa15-30ce448d1e36" SourceId="1" SourceUrl="http://localhost:1643/BuildService.svc?disco" />
+    <MetadataFile FileName="BuildService1.xsd" MetadataType="Schema" ID="055b649f-8b7d-465f-a6a8-d4285872b624" SourceId="1" SourceUrl="http://localhost:1643/BuildService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BuildService2.xsd" MetadataType="Schema" ID="6115ec16-9545-4657-ade0-085806512f90" SourceId="1" SourceUrl="http://localhost:1643/BuildService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

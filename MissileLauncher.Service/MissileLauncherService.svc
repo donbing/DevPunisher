@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Missile_Launcher_Service.MissileLauncherService" Factory="Service_Factory.StructureMapServiceHostFactory"  %>

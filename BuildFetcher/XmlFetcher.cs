@@ -1,0 +1,39 @@
+using System.Xml.Linq;
+
+namespace BuildFetcher
+{
+    public interface IHudsonXmlFetcher
+    {
+        XDocument GetJobXmlFor(string jobName);
+        XDocument GetBuildXmlFor(string jobName, int buildNumber);
+    }
+
+    public class HudsonXmlFetcher : IHudsonXmlFetcher
+    {
+        private readonly string rootUri;
+
+        public HudsonXmlFetcher()
+        {
+            this.rootUri = System.Configuration.ConfigurationSettings.AppSettings["HudsonRootUri"];
+        }
+
+        public XDocument GetJobXmlFor(string jobName)
+        {
+            string jobUri = string.Format("{0}/job/{1}/api/xml", rootUri, jobName);
+
+            return LoadXmlFrom(jobUri);
+        }
+
+        public XDocument GetBuildXmlFor(string jobName, int buildNumber)
+        {
+            string buildUri = string.Format("{0}/job/{1}/{2}/api/xml", rootUri, jobName, buildNumber);
+
+            return LoadXmlFrom(buildUri);
+        }
+
+        private static XDocument LoadXmlFrom(string uri)
+        {
+            return XDocument.Load(uri);
+        }
+    }
+}

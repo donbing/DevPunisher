@@ -1,0 +1,44 @@
+﻿<freeStyleBuild>
+  <action>
+    <cause>
+      <shortDescription>Started by user anonymous</shortDescription>
+      <userName>anonymous</userName>
+    </cause>
+  </action>
+  <action></action>
+  <action></action>
+  <building>true</building>
+  <duration>0</duration>
+  <fullDisplayName>TrunkBuilder #2183</fullDisplayName>
+  <id>2010-03-29_18-46-26</id>
+  <keepLog>false</keepLog>
+  <number>2183</number>
+  <timestamp>1269884786158</timestamp>
+  <url>http://marken-build.hudson.pinesoft.co.uk:8080/job/TrunkBuilder/2183/</url>
+  <builtOn></builtOn>
+  <changeSet>
+    <item>
+      <date>2010-03-29T17:37:05.430846Z</date>
+      <msg>Sprint 39: Changed test dates to have days &gt; 12 to help detect dd/mm mm/dd problems.</msg>
+      <path>
+        <editType>edit</editType>
+        <file>/trunk/Marken/ShipmentBookingWebService/Marken.AcceptanceTests/Features/ShouldFilterShipmentsByMilestoneDateRangeOrReached.feature</file>
+      </path>
+      <path>
+        <editType>edit</editType>
+        <file>/trunk/Marken/ShipmentBookingWebService/Marken.AcceptanceTests/Features/Should_filter_shipments_by_milestone_dates.feature</file>
+      </path>
+      <revision>6651</revision>
+      <user>Alex</user>
+    </item>
+    <kind>svn</kind>
+    <revision>
+      <module>http://svn/DotNet/trunk/Marken</module>
+      <revision>6651</revision>
+    </revision>
+  </changeSet>
+  <culprit>
+    <absoluteUrl>http://marken-build.hudson.pinesoft.co.uk:8080/user/Alex</absoluteUrl>
+    <fullName>Alex</fullName>
+  </culprit>
+</freeStyleBuild>

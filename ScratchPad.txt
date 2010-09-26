@@ -1,0 +1,25 @@
+* do something about Build.With(IRocketLauncherService), can we ctor inject from deserializer? 
+  current state is probly not really all that bad for now :(
+
+* modify autogeneration of freestyleBuild classes to call directly to hudson and get schema from there rather than using the static xml examples :)
+
+* add an unknown build state for when fetching build data fails 
+  deal with unknown build state in client
+
+* find where the lost missile launcher tests went and put the back in the sln
+  they're higdden in the root tf the build service tests!
+
+* sometimes we may have > 1 culprit elements in build xml, deal with this somehow.
+
+* maybe only put culprit on failed build class and have dev name on others?
+
+* dont pass rocket launcher service client to the dev punisher, wrap it in a notifier interface/impl
+  so we can add other stuff (flashy lights, noises, general mayhem :)
+  esp like greg youngs suggestion that we have a countdown timer...
+
+* implement position tracking missile launcher :)
+  write targetting system for position tracking launcher se we can headshot the culprit
+
+
+
+

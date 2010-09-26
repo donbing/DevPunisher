@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BuildFetcher</RootNamespace>
+    <AssemblyName>Build Fetcher</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+
+	<Compile Include="HudsonXmlApi\Build.cs" />
+<Compile Include="HudsonXmlApi\Job.cs" />
+
+    <Compile Include="Build.cs" />
+    <Compile Include="BuildMapper.cs" />
+    <Compile Include="BuildStatus.cs" />
+    <Compile Include="Job.cs" />
+    <Compile Include="JobMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlFetcher.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HudsonXmlApi\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+    <Exec Command="$(ProjectDir)libs\xsd.exe $(ProjectDir)HudsonXmlApi\Job.xml /o:$(ProjectDir)HudsonXmlApi\" />
+    <Exec Command="$(ProjectDir)libs\xsd.exe $(ProjectDir)HudsonXmlApi\Build.xml /o:$(ProjectDir)HudsonXmlApi\" />
+    <Exec Command="$(ProjectDir)libs\xsd.exe /c /n:JobXml $(ProjectDir)HudsonXmlApi\Job.xsd /o:$(ProjectDir)HudsonXmlApi\" />
+    <Exec Command="$(ProjectDir)libs\xsd.exe /c /n:BuildXml $(ProjectDir)HudsonXmlApi\Build.xsd /o:$(ProjectDir)HudsonXmlApi\" />
+  </Target>
+  <Target Name="AfterClean">
+    <Delete Files="yourschema.cs" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

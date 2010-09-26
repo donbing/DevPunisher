@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5be797b5-d382-4f59-9ccb-29aff29e950b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4176/MissileLauncherService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MissileLauncherService.xsd" MetadataType="Schema" ID="8b02e691-a9d1-4765-9510-1953966c266b" SourceId="1" SourceUrl="http://localhost:4176/MissileLauncherService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MissileLauncherService1.xsd" MetadataType="Schema" ID="d468997d-1f6d-455d-8439-bc26b1d78da6" SourceId="1" SourceUrl="http://localhost:4176/MissileLauncherService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MissileLauncherService2.xsd" MetadataType="Schema" ID="78e01ec3-1f5b-4d1e-9143-5a5990b50498" SourceId="1" SourceUrl="http://localhost:4176/MissileLauncherService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MissileLauncherService.disco" MetadataType="Disco" ID="c10e562a-d6ed-4b7d-aa27-3954c1c81811" SourceId="1" SourceUrl="http://localhost:4176/MissileLauncherService.svc?disco" />
+    <MetadataFile FileName="MissileLauncherService.wsdl" MetadataType="Wsdl" ID="a6015c07-8db2-47a2-8488-e8c2a8b92c72" SourceId="1" SourceUrl="http://localhost:4176/MissileLauncherService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
