@@ -2,7 +2,8 @@ using System;
 using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 
-namespace LittleNet.UsbMissile {
+namespace Missile_Launcher
+{
 	internal class NativeMethods {
 		public const int DIGCF_PRESENT = 0x2;
 		public const int DIGCF_DEVICEINTERFACE = 0x10;

@@ -69,17 +69,13 @@
       <Project>{41522CF2-EB1B-4719-840B-88388D187B5F}</Project>
       <Name>Build Service</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Missile Device\Missile Device.csproj">
+    <ProjectReference Include="..\MissileLauncher.Device\Missile Launcher.csproj">
       <Project>{499CBF64-9FD2-40F1-9898-0901202E4E31}</Project>
-      <Name>Missile Device</Name>
+      <Name>Missile Launcher</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Missile Launcher Interface\Missile Launcher Interface.csproj">
+    <ProjectReference Include="..\MissileLauncher.Interface\Missile Launcher Interface.csproj">
       <Project>{F09C4A62-D3DC-4539-A7E1-7DBC24B1F010}</Project>
       <Name>Missile Launcher Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MissileLauncher\Missile Launcher.csproj">
-      <Project>{05930A91-7614-4F74-BEA6-AD33398C04D4}</Project>
-      <Name>Missile Launcher</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

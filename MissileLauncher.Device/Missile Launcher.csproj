@@ -8,8 +8,8 @@
     <ProjectGuid>{499CBF64-9FD2-40F1-9898-0901202E4E31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LittleNet.UsbMissile</RootNamespace>
-    <AssemblyName>USB Missile</AssemblyName>
+    <RootNamespace>Missile_Launcher</RootNamespace>
+    <AssemblyName>MissileLauncher</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -53,7 +53,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeviceCommand.cs" />
     <Compile Include="MissileDevice.cs" />
+    <Compile Include="MissileLauncher.cs" />
     <Compile Include="NativeMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,9 +77,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MissileLauncher\Missile Launcher.csproj">
-      <Project>{05930A91-7614-4F74-BEA6-AD33398C04D4}</Project>
-      <Name>Missile Launcher</Name>
+    <ProjectReference Include="..\MissileLauncher.Interface\Missile Launcher Interface.csproj">
+      <Project>{F09C4A62-D3DC-4539-A7E1-7DBC24B1F010}</Project>
+      <Name>Missile Launcher Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -105,6 +105,41 @@ namespace Developer_Punisher_Tests
     }
 
     [TestClass]
+    public class WhenBuildUpdatesFromFailingToFailing : WithDevPunisher
+    {
+        [TestMethod]
+        public void ShouldNotFireRocketLauncher()
+        {
+            missileService.AssertWasNotCalled(svc => svc.Execute(Arg<MissileLauncherCommand>.Is.Anything));
+        }
+
+        protected override IEnumerable<Build> GetListOfBuildUpdates()
+        {
+            yield return new FailedBuild();
+            yield return new FailedBuild();
+        }
+    }
+
+    [TestClass]
+    public class WhenBuildUpdatesFromFailingToBuildingToFailing : WithDevPunisher
+    {
+        [TestMethod]
+        public void ShouldNotFireRocketLauncher()
+        {
+            missileService.AssertWasNotCalled(svc => svc.Execute(Arg<MissileLauncherCommand>.Is.Anything));
+        }
+
+        protected override IEnumerable<Build> GetListOfBuildUpdates()
+        {
+            yield return new FailedBuild();
+            yield return new BuildingBuild();
+            yield return new FailedBuild();
+        }
+    }
+
+
+
+    [TestClass]
     public class WhenBuildGoes_Building_Passing_Building_Failing : WithDevPunisher
     {
         [TestMethod]

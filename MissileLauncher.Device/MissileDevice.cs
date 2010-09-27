@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 using Missile_Launcher;
 
-namespace LittleNet.UsbMissile {
-
-	public class MissileDevice : IDisposable, IMissileDevice {
+namespace Missile_Launcher
+{
+	public class MissileDevice : IDisposable {
 
 		#region Fields
 

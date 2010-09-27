@@ -8,6 +8,8 @@ namespace Developer_Punisher.BuildService
 {
     public abstract partial class Build
     {
+        protected Build LastKnownState;
+
         protected IMissileLauncherService missileLauncher;
 
         // TODO: is it possible to ctor inject the service?, maybe summat else?
@@ -16,11 +18,7 @@ namespace Developer_Punisher.BuildService
             return this;
         }
 
-        public void TransitionTo(Build updatedBuildState) {
-            updatedBuildState.TakeActionFrom(this);
-        }
-
-        public abstract void TakeActionFrom(Build previousBuild);
+        public abstract Build TakeActionFrom(Build previousBuild);
         public abstract void ReportBuildFailed();
         public abstract void ReportBuildPassed();
         public abstract void ReportBuildBuilding();

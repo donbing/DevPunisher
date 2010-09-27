@@ -7,9 +7,9 @@ namespace Missile_Launcher
 {
     public class MissileLauncher : IMissileLauncher
     {
-        private IMissileDevice device;
+        private MissileDevice device;
 
-        public MissileLauncher(IMissileDevice device)
+        public MissileLauncher(MissileDevice device)
         {
             this.device = device;
         }

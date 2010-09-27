@@ -66,7 +66,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Missile Launcher Interface\Missile Launcher Interface.csproj">
+    <ProjectReference Include="..\MissileLauncher.Interface\Missile Launcher Interface.csproj">
       <Project>{F09C4A62-D3DC-4539-A7E1-7DBC24B1F010}</Project>
       <Name>Missile Launcher Interface</Name>
     </ProjectReference>
@@ -93,7 +93,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4176</DevelopmentServerPort>
+          <DevelopmentServerPort>53538</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

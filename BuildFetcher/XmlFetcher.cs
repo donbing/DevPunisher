@@ -2,11 +2,19 @@ using System.Xml.Linq;
 
 namespace Build_Fetcher
 {
-    public interface IHudsonXmlFetcher
+    public interface IHudsonJobXmlFetcher
     {
         XDocument GetJobXmlFor(string jobName);
+    }
+
+    public interface IHudsonBuildXmlFetcher
+    {
         XDocument GetBuildXmlFor(string jobName, int buildNumber);
     }
+
+    public interface IHudsonXmlFetcher : IHudsonJobXmlFetcher, IHudsonBuildXmlFetcher
+    { }
+
 
     public class HudsonXmlFetcher : IHudsonXmlFetcher
     {

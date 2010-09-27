@@ -8,9 +8,10 @@ namespace Developer_Punisher.BuildService
 {
     public partial class BuildingBuild
     {
-        public override void TakeActionFrom(Build previousBuild)
+        public override Build TakeActionFrom(Build previousBuild)
         {
             previousBuild.ReportBuildBuilding();
+            return previousBuild;
         }
 
         public override void ReportBuildFailed()

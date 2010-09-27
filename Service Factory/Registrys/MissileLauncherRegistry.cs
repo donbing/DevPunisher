@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using StructureMap.Configuration.DSL;
 using Missile_Launcher;
-using LittleNet.UsbMissile;
 using Missile_Launcher_Interface;
 
 namespace Service_Factory.Registrys
@@ -13,8 +12,8 @@ namespace Service_Factory.Registrys
     {
         public MissileLauncherRegistry()
         {
+            For<MissileDevice>().Use<MissileDevice>();
             For<IMissileLauncher>().Use<MissileLauncher>();
-            For<IMissileDevice>().Use<MissileDevice>();
         }
     }
 }

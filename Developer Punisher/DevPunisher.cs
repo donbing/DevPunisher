@@ -24,17 +24,33 @@ namespace Developer_Punisher
         public void BringThePain()
         {
             var updatedBuildState = GetCurrentBuild();
+            var buildContext = new BuildContext(currentBuildState, missileService);
 
-            currentBuildState
-                .With(missileService)
-                .TransitionTo(updatedBuildState);
-
-            currentBuildState = updatedBuildState;
+            currentBuildState = buildContext.UpdateTo(updatedBuildState);
         }
 
         private Build GetCurrentBuild()
         {
             return buildService.GetCurrentBuild("TrunkBuilder");
+        }
+    }
+
+    public class BuildContext
+    {
+        Build origionalBuild;
+        IMissileLauncherService missileService;
+
+        public BuildContext(Build origionalBuild,IMissileLauncherService missileService)
+        {
+            this.origionalBuild = origionalBuild;
+            this.missileService = missileService;
+        }
+
+        public Build UpdateTo(Build newBuild)
+        {
+            return newBuild
+                .With(missileService)
+                .TakeActionFrom(origionalBuild);
         }
     }
 }
