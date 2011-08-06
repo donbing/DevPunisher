@@ -12,7 +12,7 @@ namespace Developer_Punisher.BuildService
 
         protected IMissileLauncherService missileLauncher;
 
-        // TODO: is it possible to ctor inject the service?, maybe summat else?
+        // TODO: find better way to do this :(
         public Build With(IMissileLauncherService missileService) {
             this.missileLauncher = missileService;
             return this;

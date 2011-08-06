@@ -2,11 +2,11 @@
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 using Developer_Punisher.MissileLauncherService;
 using Developer_Punisher.BuildService;
 using Developer_Punisher;
+using NUnit.Framework;
 
 namespace Developer_Punisher_Tests
 {
@@ -17,7 +17,7 @@ namespace Developer_Punisher_Tests
         private DevPunisher punisher;
         private List<Build> buildUpdateOrder; 
 
-        [TestInitialize]
+        [SetUp]
         public void SetupPunisherAndBuildStates()
         {
             MockTheServices();
@@ -56,10 +56,10 @@ namespace Developer_Punisher_Tests
         protected abstract IEnumerable<Build> GetListOfBuildUpdates();
     }
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildChangesFromBuildingToFailing : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldFireRocketLauncher()
         {
             missileService.AssertWasCalled(svc => svc.Execute(Arg<FireCommand>.Is.Anything));
@@ -72,10 +72,10 @@ namespace Developer_Punisher_Tests
         }
     }
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildChangesFromBuildingToPassing : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldNotFireRocketLauncher()
         {
             missileService.AssertWasNotCalled(svc => svc.Execute(Arg<MissileLauncherCommand>.Is.Anything));
@@ -88,10 +88,10 @@ namespace Developer_Punisher_Tests
         }
     }
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildUpdatesFromBuildingToBuilding : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldNotFireRocketLauncher()
         {
             missileService.AssertWasNotCalled(svc => svc.Execute(Arg<MissileLauncherCommand>.Is.Anything));
@@ -104,10 +104,10 @@ namespace Developer_Punisher_Tests
         }
     }
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildUpdatesFromFailingToFailing : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldNotFireRocketLauncher()
         {
             missileService.AssertWasNotCalled(svc => svc.Execute(Arg<MissileLauncherCommand>.Is.Anything));
@@ -120,10 +120,10 @@ namespace Developer_Punisher_Tests
         }
     }
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildUpdatesFromFailingToBuildingToFailing : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldNotFireRocketLauncher()
         {
             missileService.AssertWasNotCalled(svc => svc.Execute(Arg<MissileLauncherCommand>.Is.Anything));
@@ -139,10 +139,10 @@ namespace Developer_Punisher_Tests
 
 
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildGoes_Building_Passing_Building_Failing : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldFireRocketLauncher()
         {
             missileService.AssertWasCalled(svc => svc.Execute(Arg<FireCommand>.Is.Anything));
@@ -157,10 +157,10 @@ namespace Developer_Punisher_Tests
         }
     }
 
-    [TestClass]
+    [TestFixture]
     public class WhenBuildGoes_Failing_Building_Passing_Building_Failing : WithDevPunisher
     {
-        [TestMethod]
+        [Test]
         public void ShouldFireRocketLauncher()
         {
             missileService.AssertWasCalled(svc => svc.Execute(Arg<FireCommand>.Is.Anything));

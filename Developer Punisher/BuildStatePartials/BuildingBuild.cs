@@ -10,7 +10,7 @@ namespace Developer_Punisher.BuildService
     {
         public override Build TakeActionFrom(Build previousBuild)
         {
-            previousBuild.ReportBuildBuilding();
+            previousBuild.With(missileLauncher).ReportBuildBuilding();
             return previousBuild;
         }
 
