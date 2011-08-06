@@ -20,9 +20,9 @@ namespace Build_Fetcher
     {
         private readonly string rootUri;
 
-        public HudsonXmlFetcher()
+        public HudsonXmlFetcher(string rootUri)
         {
-            this.rootUri = System.Configuration.ConfigurationSettings.AppSettings["HudsonRootUri"];
+            this.rootUri = rootUri;
         }
 
         public XDocument GetJobXmlFor(string jobName)

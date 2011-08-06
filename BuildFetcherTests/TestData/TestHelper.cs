@@ -23,7 +23,7 @@ namespace Build_Fetcher.Tests
             var fullResourceName = string.Format("Build_Fetcher.Tests.TestData.{0}.xml", resourceName);
 
             var JobXml = testAssembly.GetManifestResourceStream(fullResourceName);
-            var pwn = testAssembly.GetManifestResourceNames();
+
             XDocument xmlDoc = XDocument.Load(XmlReader.Create(JobXml));
 
             return xmlDoc;
