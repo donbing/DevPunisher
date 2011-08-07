@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Missile_Launcher_Interface;
-
+using MissileCommandService;	
 namespace Missile_Launcher
 {
     public class MissileLauncher : IMissileLauncher
@@ -15,21 +14,21 @@ namespace Missile_Launcher
         }
 
         public void Left() 
-        { device.Command(DeviceCommand.Left); }
+        { device.Execute(DeviceCommand.Left); }
 
         public void Right() 
-        { device.Command(DeviceCommand.Right); }
+        { device.Execute(DeviceCommand.Right); }
 
         public void Up() 
-        { device.Command(DeviceCommand.Up); }
+        { device.Execute(DeviceCommand.Up); }
 
         public void Down() 
-        { device.Command(DeviceCommand.Down);}
+        { device.Execute(DeviceCommand.Down);}
 
         public void Fire() 
-        { device.Command(DeviceCommand.Fire);}
+        { device.Execute(DeviceCommand.Fire);}
 
         public void Stop() 
-        { device.Command(DeviceCommand.Stop); }
+        { device.Execute(DeviceCommand.Stop); }
     }
 }

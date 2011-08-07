@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
-namespace Build_Fetcher
+namespace BuildFetcher
 {
     public class XmlDeserialzer<T> where T : class
     {

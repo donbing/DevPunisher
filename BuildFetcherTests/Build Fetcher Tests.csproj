@@ -47,14 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HttpIntegrationTest\WhenRetrievingLastBuildForLiveJob.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestData\TestHelper.cs" />
     <Compile Include="HttpIntegrationTest\WhenRetrievingLiveJobFromJobName.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BuildFetcher\Build Fetcher.csproj">
+    <ProjectReference Include="..\BuildFetcher\BuildFetcher.csproj">
       <Project>{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}</Project>
-      <Name>Build Fetcher</Name>
+      <Name>BuildFetcher</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

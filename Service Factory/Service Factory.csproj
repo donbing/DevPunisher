@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -31,54 +31,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libs\StructureMap\StructureMap.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
     <Reference Include="System.ServiceModel">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Xml.Linq">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\StructureMap\StructureMap.dll</HintPath>
     </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Registrys\BuildServiceRegistry.cs" />
-    <Compile Include="Registrys\MissileLauncherRegistry.cs" />
     <Compile Include="StructureMapInstanceProvider.cs" />
     <Compile Include="StructureMapServiceBehavior.cs" />
     <Compile Include="StructureMapServiceHost.cs" />
     <Compile Include="StructureMapServiceHostFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BuildFetcher\Build Fetcher.csproj">
-      <Project>{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}</Project>
-      <Name>Build Fetcher</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HudsonWcfService\Build Service.csproj">
-      <Project>{41522CF2-EB1B-4719-840B-88388D187B5F}</Project>
-      <Name>Build Service</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MissileLauncher.Device\Missile Launcher.csproj">
-      <Project>{499CBF64-9FD2-40F1-9898-0901202E4E31}</Project>
-      <Name>Missile Launcher</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MissileLauncher.Interface\Missile Launcher Interface.csproj">
-      <Project>{F09C4A62-D3DC-4539-A7E1-7DBC24B1F010}</Project>
-      <Name>Missile Launcher Interface</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

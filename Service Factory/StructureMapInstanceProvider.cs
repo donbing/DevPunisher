@@ -25,7 +25,8 @@ namespace Service_Factory
 
         public object GetInstance(InstanceContext instanceContext, Message message)
         {
-            return ObjectFactory.GetInstance(_serviceType);
+			var foob = ObjectFactory.GetInstance(_serviceType);
+            return foob;
         }
 
         public void ReleaseInstance(InstanceContext instanceContext, object instance)

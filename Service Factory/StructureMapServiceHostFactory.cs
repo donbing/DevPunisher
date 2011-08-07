@@ -5,7 +5,6 @@ using System.Text;
 using System.ServiceModel.Activation;
 using System.ServiceModel;
 using StructureMap;
-using Service_Factory.Registrys;
 
 namespace Service_Factory
 {
@@ -14,9 +13,13 @@ namespace Service_Factory
         public StructureMapServiceHostFactory()
         {
             ObjectFactory.Initialize(factory =>{
-                factory.AddRegistry(new BuildServiceRegistry());
-                factory.AddRegistry(new MissileLauncherRegistry());
-            });
+				factory.Scan(x => {
+					x.AssembliesFromApplicationBaseDirectory();
+					x.TheCallingAssembly();
+					x.WithDefaultConventions();
+				
+				});
+			});
         }
 
         protected override ServiceHost CreateServiceHost(Type serviceType, Uri[] baseAddresses)

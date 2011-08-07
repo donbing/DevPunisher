@@ -137,8 +137,6 @@ namespace Developer_Punisher_Tests
         }
     }
 
-
-
     [TestFixture]
     public class WhenBuildGoes_Building_Passing_Building_Failing : WithDevPunisher
     {

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
-using Missile_Launcher_Interface;
 
-namespace Missile_Launcher_Service
+namespace MissileCommandService
 {
     [DataContract]
     [KnownType(typeof(UpCommand))]
@@ -14,9 +13,9 @@ namespace Missile_Launcher_Service
     [KnownType(typeof(RightCommand))]
     [KnownType(typeof(StopCommand))]
     [KnownType(typeof(FireCommand))]
-    public class MissileLauncherCommand
+    public abstract class MissileLauncherCommand
     {
-        public virtual void ExecuteOn(IMissileLauncher launcher) { }
+        public abstract void ExecuteOn(IMissileLauncher launcher);
     }
 
     public class UpCommand : MissileLauncherCommand

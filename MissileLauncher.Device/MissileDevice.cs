@@ -137,7 +137,7 @@ namespace Missile_Launcher
         //    WriteBytes(_controlHandle, bytes);
         //}
 
-		public void Command(DeviceCommand command) {
+		public void Execute(DeviceCommand command) {
 			if ((_setupHandle == null) || (_controlHandle == null))
 				throw new ApplicationException("Unable to find a USB Missile Launcher device.");
 
