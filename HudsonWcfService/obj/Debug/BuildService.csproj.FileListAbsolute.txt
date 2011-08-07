@@ -1,0 +1,7 @@
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\bin\BuildService.dll
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\bin\BuildService.pdb
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\bin\BuildFetcher.dll
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\bin\BuildFetcher.pdb
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\obj\Debug\BuildService.dll
+C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\obj\Debug\BuildService.pdb

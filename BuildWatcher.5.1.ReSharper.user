@@ -1,0 +1,136 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="fac" priority="1" />
+      <Item value="var" priority="3" />
+      <Item value="new" priority="0" />
+      <Item value="Container`0" priority="0" />
+      <Item value="container" priority="5" />
+      <Item value="Type`0" priority="0" />
+      <Item value="constructorString" priority="1" />
+      <Item value="return" priority="1" />
+      <Item value="CreateServiceHost`0" priority="0" />
+      <Item value="t" priority="2" />
+      <Item value="baseAddresses" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="string" priority="0" />
+      <Item value="gtye" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="AppDomain`0" priority="0" />
+      <Item value="StructureMap" priority="0" />
+      <Item value="Construction" priority="0" />
+      <Item value="true" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Service_Factory.StructureMapServiceHostFactory">
+      <Item value="IsIn`1" priority="0" />
+      <Item value="foo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Container">
+      <Item value="GetInstance`0" priority="0" />
+      <Item value="Model" priority="1" />
+      <Item value="PluginGraph" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsNotNull`0" priority="0" />
+      <Item value="AreEqual`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Query.IModel">
+      <Item value="PluginTypes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Query.IPluginTypeConfiguration">
+      <Item value="PluginType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Graph.PluginGraph">
+      <Item value="Types" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053488/f:Web.config" caret="4681" fromTop="13" />
+      <File id="5BB208E4-3AE8-4447-BBDE-F0268EB75255/f:BuildStateTransitions.cs" caret="0" fromTop="0" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonJobFetcher.cs" caret="116" fromTop="5" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonJobXmlFetcher .cs" caret="90" fromTop="5" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonBuildXmlFetcher.cs" caret="0" fromTop="0" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:XmlDeserialzer.cs" caret="0" fromTop="0" />
+      <File id="6F4AFA60-725B-46A7-97F7-3308B2B8B3FA/d:HttpIntegrationTest/f:WhenRetrievingLiveJobFromJobName.cs" caret="400" fromTop="17" />
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053489/d:Commands/f:MissileLauncherCommands.cs" caret="167" fromTop="6" />
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053489/f:MissileLauncherService.cs" caret="447" fromTop="18" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:Build.cs" caret="808" fromTop="38" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:Job.cs" caret="914" fromTop="26" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapInstanceProvider.cs" caret="802" fromTop="25" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceBehavior.cs" caret="998" fromTop="28" />
+      <File id="41522CF2-EB1B-4719-840B-88388D187B5F/f:HudsonBuildService.cs" caret="713" fromTop="25" />
+      <File id="F6004944-C4EA-46FA-A6C1-EB51AAFC6C00/f:BuildServiceTests.cs" caret="882" fromTop="23" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHost.cs" caret="283" fromTop="14" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="1003" fromTop="30" />
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053488/f:MissileLauncherService.svc" caret="201" fromTop="5" />
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053488/f:BuildService.svc" caret="179" fromTop="5" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5BB208E4-3AE8-4447-BBDE-F0268EB75255/f:BuildStateTransitions.cs" caret="0" fromTop="0" />
+      <File id="F6004944-C4EA-46FA-A6C1-EB51AAFC6C00/f:BuildServiceTests.cs" caret="176" fromTop="13" />
+      <File id="F6004944-C4EA-46FA-A6C1-EB51AAFC6C00/f:BuildServiceTests.cs" caret="34" fromTop="0" />
+      <File id="41522CF2-EB1B-4719-840B-88388D187B5F/f:HudsonBuildService.cs" caret="26" fromTop="0" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:Build.cs" caret="13" fromTop="0" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonJobFetcher.cs" caret="173" fromTop="6" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonJobFetcher.cs" caret="171" fromTop="8" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonJobXmlFetcher .cs" caret="90" fromTop="5" />
+      <File id="41522CF2-EB1B-4719-840B-88388D187B5F/f:HudsonBuildService.cs" caret="582" fromTop="21" />
+      <File id="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF/f:HudsonJobFetcher.cs" caret="0" fromTop="0" />
+      <File id="F6004944-C4EA-46FA-A6C1-EB51AAFC6C00/f:BuildServiceTests.cs" caret="1245" fromTop="28" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="369" fromTop="12" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="597" fromTop="19" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="418" fromTop="15" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHost.cs" caret="314" fromTop="14" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHost.cs" caret="807" fromTop="22" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHost.cs" caret="631" fromTop="22" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceBehavior.cs" caret="435" fromTop="14" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceBehavior.cs" caret="1152" fromTop="28" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceBehavior.cs" caret="998" fromTop="28" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapInstanceProvider.cs" caret="522" fromTop="15" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapInstanceProvider.cs" caret="335" fromTop="10" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapInstanceProvider.cs" caret="802" fromTop="25" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="632" fromTop="16" />
+      <File id="F6004944-C4EA-46FA-A6C1-EB51AAFC6C00/f:BuildServiceTests.cs" caret="1313" fromTop="41" />
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053488/f:BuildService.svc" caret="110" fromTop="3" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="13" fromTop="0" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="224" fromTop="9" />
+      <File id="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D/f:StructureMapServiceHostFactory.cs" caret="987" fromTop="29" />
+      <File id="2AFCB86F-6E26-47F4-AFA6-83356D053488/f:MissileLauncherService.svc" caret="134" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

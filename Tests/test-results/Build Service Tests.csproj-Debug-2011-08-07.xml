@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2011-08-07T02:15:27</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2011-08-07T04:36:01</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="Build_Service">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2011-08-07T02:15:27</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2011-08-07T04:36:01</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="Tests">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2011-08-07T02:15:27</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2011-08-07T04:36:01</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="SreaterService">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2011-08-07T02:15:27</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2011-08-07T02:57:25</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2011-08-07T04:36:01</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="foo">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T01:50:10</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T01:57:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.UriFormatException : Absolute URI is too short</Message>
+                      <StackTrace>  at System.Uri.Parse (UriKind kind, System.String uriString) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Uri.ParseUri (UriKind kind) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Uri..ctor (System.String uriString, Boolean dontEscape) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Uri..ctor (System.String uriString) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T01:57:42</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T01:59:31</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:00:50</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:02:48</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:06:22</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:03:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:05:28</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Connection refused</Message>
+                      <StackTrace>  at Mono.Remoting.Channels.Unix.HostConnectionPool.CreateConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.HostConnectionPool.GetConnection () [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixConnectionPool.GetConnection (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Remoting.Channels.Unix.UnixClientTransportSink.ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders&amp; responseHeaders, System.IO.Stream&amp; responseStream) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (IMessage msg) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:07:15</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:10:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:10:41</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:15:27</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:21:32</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:22:34</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NotImplementedException : The requested feature is not implemented.</Message>
+                      <StackTrace>  at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost (System.String constructorString, System.Uri[] baseAddresses) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00006] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:51 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:24:45</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:25:51</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:33:04</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:35:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:41:16</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:48:19</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:50:48</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:51:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Service.IBuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Container.GetInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Container.GetInstance[IBuildService] () [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.ObjectFactory.GetInstance[IBuildService] () [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00016] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:56 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:57:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:59:52</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Service.IBuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Container.GetInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Container.GetInstance[IBuildService] () [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.ObjectFactory.GetInstance[IBuildService] () [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.foo () [0x00016] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:56 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:11:18</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:14:16</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:17:48</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:36:01</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+                <TestRecord Name="checkstructuremapconfig">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:17:59</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily Build_Fetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:22:45</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:24:47</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:26:49</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 18.42ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:28:14</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: same as "===========================================================================================================
+Configuration Sources:
+
+0)   Registry:  StructureMap.InitializationExpression, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+1)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+2)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+
+
+=================================================================================================================================================================================================================================================================================================================================================================================================
+PluginType                                                                               Name                                                                                                                                       Description                                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IMethodOptions`1&lt;T&gt; (IMethodOptions`1&lt;T&gt;)                                                Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                           Configured Instance of Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                      
+Scoped as:  Transient
+
+                                                                                         Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                           Configured Instance of Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                                                                                                                                                                                                                                                                                                
+Scoped as:  Transient
+
+                                                                                         5fa9f87c-37d7-471b-9174-7b9568849fef                                                                                                                                                                                                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonBuildFetcher (BuildFetcher.IHudsonBuildFetcher)                                   BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       Configured Instance of BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+Scoped as:  Transient
+
+                                                                                         BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       Configured Instance of BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonJobFetcher (BuildFetcher.AutoGeneratedClasses.IHudsonJobFetcher)                  BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                    Configured Instance of BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null               
+Scoped as:  Transient
+
+                                                                                         BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                    Configured Instance of BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonBuildXmlFetcher (BuildFetcher.IHudsonBuildXmlFetcher)                                                                                                                                                                                                                                                                                                                                     
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonJobXmlFetcher (BuildFetcher.IHudsonJobXmlFetcher)                                                                                                                                                                                                                                                                                                                                         
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildService (Build_Service.IBuildService)                                              Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+Scoped as:  Transient
+
+                                                                                         Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ICreateMethodExpectation (Rhino.Mocks.Interfaces.ICreateMethodExpectation)               Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                   Configured Instance of Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f              
+Scoped as:  Transient
+
+                                                                                         Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                   Configured Instance of Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IEventRaiser (Rhino.Mocks.Interfaces.IEventRaiser)                                                                                                                                                                                                                                                                                                                                               
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IProfileBuilder (StructureMap.Configuration.IProfileBuilder)                             StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IAssemblyScanner (StructureMap.Graph.IAssemblyScanner)                                   StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                        Configured Instance of StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                        Configured Instance of StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IConfiguredInstance (StructureMap.Pipeline.IConfiguredInstance)                          StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                  Configured Instance of StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223             
+Scoped as:  Transient
+
+                                                                                         StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                  Configured Instance of StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IConfigurationParserBuilder (StructureMap.Configuration.IConfigurationParserBuilder)     StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223     Configured Instance of StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223     Configured Instance of StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IRegistry (StructureMap.Configuration.DSL.IRegistry)                                     StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IGraphBuilder (StructureMap.Configuration.IGraphBuilder)                                 StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IPluginFamily (StructureMap.Graph.IPluginFamily)                                         StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IPluginGraph (StructureMap.Graph.IPluginGraph)                                           StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                            Configured Instance of StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                       
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                            Configured Instance of StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IInstanceFactory (StructureMap.IInstanceFactory)                                         StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                              Configured Instance of StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                         
+Scoped as:  Transient
+
+                                                                                         StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                              Configured Instance of StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)                                                     StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                                    Configured Instance of StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                               
+Scoped as:  Transient
+
+                                                                                         StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                                    Configured Instance of StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                               
+                                                                                         7395f85c-17b1-4eda-a214-5032aed8b251                                                                                                       Object:  StructureMap.Container                                                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IInstanceBuilder (StructureMap.Construction.IInstanceBuilder)                            StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+Scoped as:  Transient
+
+                                                                                         StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IArguments (StructureMap.Construction.IArguments)                                        StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+Scoped as:  Transient
+
+                                                                                         StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildFrame (StructureMap.Pipeline.IBuildFrame)                                                                                                                                                                                                                                                                                                                                                  
+Scoped as:  Transient
+
+================================================================================================================================================================================================================================================================================================================================================================================================="
+  But was:  "arse"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.checkstructuremapconfig () [0x00022] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:78 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:30:23</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:30:59</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: same as "===========================================================================================================
+Configuration Sources:
+
+0)   Registry:  StructureMap.InitializationExpression, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+1)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+2)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+
+
+=================================================================================================================================================================================================================================================================================================================================================================================================
+PluginType                                                                               Name                                                                                                                                       Description                                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IMethodOptions`1&lt;T&gt; (IMethodOptions`1&lt;T&gt;)                                                Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                           Configured Instance of Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                      
+Scoped as:  Transient
+
+                                                                                         Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                           Configured Instance of Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                                                                                                                                                                                                                                                                                                
+Scoped as:  Transient
+
+                                                                                         06f88d8a-ce76-48af-a834-554088dbe60d                                                                                                                                                                                                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonBuildFetcher (BuildFetcher.IHudsonBuildFetcher)                                   BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       Configured Instance of BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+Scoped as:  Transient
+
+                                                                                         BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       Configured Instance of BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonJobFetcher (BuildFetcher.AutoGeneratedClasses.IHudsonJobFetcher)                  BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                    Configured Instance of BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null               
+Scoped as:  Transient
+
+                                                                                         BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                    Configured Instance of BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonBuildXmlFetcher (BuildFetcher.IHudsonBuildXmlFetcher)                                                                                                                                                                                                                                                                                                                                     
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonJobXmlFetcher (BuildFetcher.IHudsonJobXmlFetcher)                                                                                                                                                                                                                                                                                                                                         
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildService (Build_Service.IBuildService)                                              Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+Scoped as:  Transient
+
+                                                                                         Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ICreateMethodExpectation (Rhino.Mocks.Interfaces.ICreateMethodExpectation)               Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                   Configured Instance of Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f              
+Scoped as:  Transient
+
+                                                                                         Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                   Configured Instance of Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IEventRaiser (Rhino.Mocks.Interfaces.IEventRaiser)                                                                                                                                                                                                                                                                                                                                               
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IProfileBuilder (StructureMap.Configuration.IProfileBuilder)                             StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IAssemblyScanner (StructureMap.Graph.IAssemblyScanner)                                   StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                        Configured Instance of StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                        Configured Instance of StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IConfiguredInstance (StructureMap.Pipeline.IConfiguredInstance)                          StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                  Configured Instance of StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223             
+Scoped as:  Transient
+
+                                                                                         StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                  Configured Instance of StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IConfigurationParserBuilder (StructureMap.Configuration.IConfigurationParserBuilder)     StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223     Configured Instance of StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223     Configured Instance of StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IRegistry (StructureMap.Configuration.DSL.IRegistry)                                     StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IGraphBuilder (StructureMap.Configuration.IGraphBuilder)                                 StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IPluginFamily (StructureMap.Graph.IPluginFamily)                                         StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IPluginGraph (StructureMap.Graph.IPluginGraph)                                           StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                            Configured Instance of StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                       
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                            Configured Instance of StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IInstanceFactory (StructureMap.IInstanceFactory)                                         StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                              Configured Instance of StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                         
+Scoped as:  Transient
+
+                                                                                         StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                              Configured Instance of StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)                                                     StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                                    Configured Instance of StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                               
+Scoped as:  Transient
+
+                                                                                         StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                                    Configured Instance of StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                               
+                                                                                         645b9a4f-82d9-4154-8cd5-7637481478b0                                                                                                       Object:  StructureMap.Container                                                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IInstanceBuilder (StructureMap.Construction.IInstanceBuilder)                            StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+Scoped as:  Transient
+
+                                                                                         StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IArguments (StructureMap.Construction.IArguments)                                        StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+Scoped as:  Transient
+
+                                                                                         StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildFrame (StructureMap.Pipeline.IBuildFrame)                                                                                                                                                                                                                                                                                                                                                  
+Scoped as:  Transient
+
+================================================================================================================================================================================================================================================================================================================================================================================================="
+  But was:  "arse"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.checkstructuremapconfig () [0x00022] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:78 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:35:08</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: same as "===========================================================================================================
+Configuration Sources:
+
+0)   Registry:  StructureMap.InitializationExpression, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+1)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+2)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+
+
+=================================================================================================================================================================================================================================================================================================================================================================================================
+PluginType                                                                               Name                                                                                                                                       Description                                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IMethodOptions`1&lt;T&gt; (IMethodOptions`1&lt;T&gt;)                                                Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                           Configured Instance of Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                      
+Scoped as:  Transient
+
+                                                                                         Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                           Configured Instance of Rhino.Mocks.Impl.MethodOptions`1, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                                                                                                                                                                                                                                                                                                
+Scoped as:  Transient
+
+                                                                                         c1460b82-a942-4be9-a30b-fc7cac26c8cb                                                                                                                                                                                                                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonBuildFetcher (BuildFetcher.IHudsonBuildFetcher)                                   BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       Configured Instance of BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+Scoped as:  Transient
+
+                                                                                         BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       Configured Instance of BuildFetcher.HudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonJobFetcher (BuildFetcher.AutoGeneratedClasses.IHudsonJobFetcher)                  BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                    Configured Instance of BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null               
+Scoped as:  Transient
+
+                                                                                         BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                    Configured Instance of BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonBuildXmlFetcher (BuildFetcher.IHudsonBuildXmlFetcher)                                                                                                                                                                                                                                                                                                                                     
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IHudsonJobXmlFetcher (BuildFetcher.IHudsonJobXmlFetcher)                                                                                                                                                                                                                                                                                                                                         
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildService (Build_Service.IBuildService)                                              Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+Scoped as:  Transient
+
+                                                                                         Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ICreateMethodExpectation (Rhino.Mocks.Interfaces.ICreateMethodExpectation)               Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                   Configured Instance of Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f              
+Scoped as:  Transient
+
+                                                                                         Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f                   Configured Instance of Rhino.Mocks.Impl.CreateMethodExpectation, Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IEventRaiser (Rhino.Mocks.Interfaces.IEventRaiser)                                                                                                                                                                                                                                                                                                                                               
+Scoped as:  Transient
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IProfileBuilder (StructureMap.Configuration.IProfileBuilder)                             StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Configuration.ProfileBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IAssemblyScanner (StructureMap.Graph.IAssemblyScanner)                                   StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                        Configured Instance of StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                        Configured Instance of StructureMap.Graph.AssemblyScanner, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IConfiguredInstance (StructureMap.Pipeline.IConfiguredInstance)                          StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                  Configured Instance of StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223             
+Scoped as:  Transient
+
+                                                                                         StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                  Configured Instance of StructureMap.Pipeline.ConfiguredInstance, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IConfigurationParserBuilder (StructureMap.Configuration.IConfigurationParserBuilder)     StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223     Configured Instance of StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223     Configured Instance of StructureMap.Configuration.ConfigurationParserBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IRegistry (StructureMap.Configuration.DSL.IRegistry)                                     StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IGraphBuilder (StructureMap.Configuration.IGraphBuilder)                                 StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+Scoped as:  Transient
+
+                                                                                         StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                   Configured Instance of StructureMap.Configuration.GraphBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IPluginFamily (StructureMap.Graph.IPluginFamily)                                         StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Graph.PluginFamily, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IPluginGraph (StructureMap.Graph.IPluginGraph)                                           StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                            Configured Instance of StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                       
+Scoped as:  Transient
+
+                                                                                         StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                            Configured Instance of StructureMap.Graph.PluginGraph, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IInstanceFactory (StructureMap.IInstanceFactory)                                         StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                              Configured Instance of StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                         
+Scoped as:  Transient
+
+                                                                                         StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                              Configured Instance of StructureMap.InstanceFactory, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)                                                     StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                                    Configured Instance of StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                               
+Scoped as:  Transient
+
+                                                                                         StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                                    Configured Instance of StructureMap.Container, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                               
+                                                                                         02601631-0dd6-449e-a8e7-e99af7b2ded8                                                                                                       Object:  StructureMap.Container                                                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IInstanceBuilder (StructureMap.Construction.IInstanceBuilder)                            StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+Scoped as:  Transient
+
+                                                                                         StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                 Configured Instance of StructureMap.Construction.InstanceBuilder, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IArguments (StructureMap.Construction.IArguments)                                        StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+Scoped as:  Transient
+
+                                                                                         StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                           Configured Instance of StructureMap.Pipeline.Arguments, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildFrame (StructureMap.Pipeline.IBuildFrame)                                                                                                                                                                                                                                                                                                                                                  
+Scoped as:  Transient
+
+================================================================================================================================================================================================================================================================================================================================================================================================="
+  But was:  "arse"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.checkstructuremapconfig () [0x00022] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:78 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:40:29</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected: same as "===========================================================================================================
+Configuration Sources:
+
+0)   Registry:  StructureMap.InitializationExpression, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+1)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+2)   Registry:  StructureMap.Configuration.DSL.Registry, StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223
+
+
+==========================================================================================================================================================================================================================================================================
+PluginType                                      Name                                                                                                Description                                                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                                                                                                                                                                         
+Scoped as:  Transient
+
+                                                95e6f445-68b4-4413-84d2-14821a6e858b                                                                                                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IBuildService (Build_Service.IBuildService)     Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null     Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Scoped as:  Transient
+
+                                                Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null     Configured Instance of Build_Service.BuildService, BuildService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)            1a0076be-dcf3-4c13-ad3e-2cce79ccdba5                                                                Object:  StructureMap.Container                                                                                       
+Scoped as:  Transient
+
+                                                1a0076be-dcf3-4c13-ad3e-2cce79ccdba5                                                                Object:  StructureMap.Container                                                                                       
+=========================================================================================================================================================================================================================================================================="
+  But was:  "arse"
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, NUnit.Framework.Constraints.Constraint constraint, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreSame (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at Build_Service.Tests.SreaterService.checkstructuremapconfig () [0x00022] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:41:41</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:43:35</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:45:49</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:45:52</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T03:52:05</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:00:41</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:03:19</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:15:31</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:17:42</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:19:31</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:20:04</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:21:09</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>StructureMap.StructureMapException : StructureMap Exception Code:  202
+No Default Instance defined for PluginFamily BuildFetcher.IHudsonBuildXmlFetcher, BuildFetcher, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Message>
+                      <StackTrace>  at StructureMap.BuildSession.&lt;.ctor&gt;b__0 (System.Type t) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Util.Cache`2[System.Type,System.Func`1[System.Object]].get_Item (System.Type key) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.BuildSession.CreateInstance (System.Type pluginType) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.DefaultInstance.build (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 
+  at StructureMap.Pipeline.Instance.createRawObject (System.Type pluginType, StructureMap.BuildSession session) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:21:58</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.22ms</Message>
+                      <ConsoleOutput>===========================================================================================================
+Configuration Sources:
+
+
+
+=================================================================================================================
+PluginType                               Name                                     Description                    
+-----------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                
+Scoped as:  Transient
+
+                                         e3bf7ce5-19bd-4690-8fe4-7ad268163ce8                                    
+-----------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)     c2faa6ff-bc67-4893-b1ae-f9c43579c13e     Object:  StructureMap.Container
+Scoped as:  Transient
+
+                                         c2faa6ff-bc67-4893-b1ae-f9c43579c13e     Object:  StructureMap.Container
+=================================================================================================================</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:22:50</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.23ms</Message>
+                      <ConsoleOutput>===========================================================================================================
+Configuration Sources:
+
+
+
+=================================================================================================================
+PluginType                               Name                                     Description                    
+-----------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                
+Scoped as:  Transient
+
+                                         80fa8552-9f31-45d4-ad75-0d4e51430e9f                                    
+-----------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)     7484f456-5d19-41c3-b512-4ede9fe65e7f     Object:  StructureMap.Container
+Scoped as:  Transient
+
+                                         7484f456-5d19-41c3-b512-4ede9fe65e7f     Object:  StructureMap.Container
+=================================================================================================================</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:36:01</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.25ms</Message>
+                      <ConsoleOutput>===========================================================================================================
+Configuration Sources:
+
+
+
+=================================================================================================================
+PluginType                               Name                                     Description                    
+-----------------------------------------------------------------------------------------------------------------
+Func`1&lt;TResult&gt; (Func`1&lt;TResult&gt;)                                                                                
+Scoped as:  Transient
+
+                                         6287c1ae-a212-4f0b-942a-d8af4a9e7d98                                    
+-----------------------------------------------------------------------------------------------------------------
+IContainer (StructureMap.IContainer)     6858c37d-8a79-4cc7-b181-11937f1ee435     Object:  StructureMap.Container
+Scoped as:  Transient
+
+                                         6858c37d-8a79-4cc7-b181-11937f1ee435     Object:  StructureMap.Container
+=================================================================================================================</ConsoleOutput>
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="When_Requesting_Current_Build_For_A_Job">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2011-08-07T02:15:27</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2011-08-07T04:36:01</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="Should_Successfully_Retrieve_A_Build">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T02:15:27</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 6.09ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2011-08-07T04:36:01</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.IO.DirectoryNotFoundException : Could not find a part of the path "/job/ruby/api/xml".</Message>
+                      <StackTrace>  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.Xml.XmlUrlResolver.GetEntity (System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Xml2.XmlTextReader.GetStreamFromUrl (System.String url, System.String&amp; absoluteUriString) [0x00000] in &lt;filename unknown&gt;:0 
+  at Mono.Xml2.XmlTextReader..ctor (Boolean dummy, System.Xml.XmlResolver resolver, System.String url, XmlNodeType fragType, System.Xml.XmlParserContext context) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Xml.XmlTextReader..ctor (Boolean dummy, System.Xml.XmlResolver resolver, System.String url, XmlNodeType fragType, System.Xml.XmlParserContext context) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Xml.XmlReader.Create (System.String url, System.Xml.XmlReaderSettings settings, System.Xml.XmlParserContext context) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Xml.XmlReader.Create (System.String url, System.Xml.XmlReaderSettings settings) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri, LoadOptions options) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri) [0x00000] in &lt;filename unknown&gt;:0 
+  at BuildFetcher.HudsonJobXmlFetcher.GetJobXmlFor (System.String jobName) [0x00000] in /home/chris/dev/devpunisher/BuildFetcher/HudsonJobXmlFetcher .cs:23 
+  at BuildFetcher.AutoGeneratedClasses.HudsonJobFetcher.GetJobFromJobName (System.String jobName) [0x00000] in /home/chris/dev/devpunisher/BuildFetcher/HudsonJobFetcher.cs:26 
+  at Build_Service.BuildService.GetCurrentBuild (System.String jobName) [0x00000] in /home/chris/dev/devpunisher/HudsonWcfService/HudsonBuildService.cs:30 
+  at Build_Service.Tests.When_Requesting_Current_Build_For_A_Job.Should_Successfully_Retrieve_A_Build () [0x00000] in /home/chris/dev/devpunisher/Tests/BuildServiceTests.cs:38 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

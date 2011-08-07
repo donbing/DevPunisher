@@ -33,7 +33,7 @@ namespace Build_Service.Tests
             var currentBuild = buildService.GetCurrentBuild(JobName);
 
             Assert.IsNotNull(currentBuild);
-            Assert.IsInstanceOfType(typeof(Build), currentBuild);
+            Assert.That(currentBuild, Is.InstanceOf<Build>());
         }
     }
 	
@@ -46,7 +46,6 @@ namespace Build_Service.Tests
 			var fac = new StructureMapServiceHostFactory();
 
             var x = fac.CreateServiceHost("BuildService", new[] { new Uri("http://localhost:8300/foo") });
-		    
 		}		
 	}
 }

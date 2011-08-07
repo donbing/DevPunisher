@@ -1,0 +1,15 @@
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\TestData\anonymousBuild.xml
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\TestData\buildingBuild.xml
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\TestData\failedBuild.xml
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\TestData\successfullBuild.xml
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\TestData\TrunkBuilderJob.xml
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\App.config
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\Build_Fetcher.Tests.dll.config
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\Build_Fetcher.Tests.dll
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\Build_Fetcher.Tests.pdb
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\BuildFetcher.dll
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\nunit.framework.dll
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\bin\Debug\BuildFetcher.pdb
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\obj\Debug\Build_Fetcher.Tests.dll
+C:\Users\Chris\Desktop\devpunisher\BuildFetcherTests\obj\Debug\Build_Fetcher.Tests.pdb

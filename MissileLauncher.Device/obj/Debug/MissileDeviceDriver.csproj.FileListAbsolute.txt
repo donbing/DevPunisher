@@ -1,0 +1,7 @@
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\bin\Debug\MissileLauncher.dll
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\bin\Debug\MissileLauncher.pdb
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\bin\Debug\MissileCommandService.dll
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\obj\Debug\MissileLauncher.dll
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\obj\Debug\MissileLauncher.pdb
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Device\bin\Debug\MissileCommandService.pdb

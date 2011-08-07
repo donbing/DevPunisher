@@ -1,0 +1,10 @@
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Developer_Punisher.Tests.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Developer_Punisher.Tests.pdb
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Developer Punisher.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\nunit.framework.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Developer Punisher.pdb
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\obj\Debug\Developer_Punisher.Tests.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\obj\Debug\Developer_Punisher.Tests.pdb

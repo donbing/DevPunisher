@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="Build_Service.BuildService, BuildService" 
+    Factory="Service_Factory.StructureMapServiceHostFactory" 
+%>

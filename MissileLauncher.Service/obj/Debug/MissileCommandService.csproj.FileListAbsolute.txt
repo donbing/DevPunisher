@@ -1,0 +1,5 @@
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\bin\MissileCommandService.dll
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\bin\MissileCommandService.pdb
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\obj\Debug\MissileCommandService.dll
+C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\obj\Debug\MissileCommandService.pdb

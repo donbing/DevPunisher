@@ -1,0 +1,11 @@
+<Modules>
+  <Module PersistentId="2AFCB86F-6E26-47F4-AFA6-83356D053489" ModuleId="MissileCommandService" />
+  <Module PersistentId="C43F3DF6-9F39-4D47-98B1-3C0781C05F2D" ModuleId="Service Factory" />
+  <Module PersistentId="6F4AFA60-725B-46A7-97F7-3308B2B8B3FA" ModuleId="Build Fetcher Tests" />
+  <Module PersistentId="CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF" ModuleId="BuildFetcher" />
+  <Module PersistentId="F6004944-C4EA-46FA-A6C1-EB51AAFC6C00" ModuleId="Build Service Tests" />
+  <Module PersistentId="41522CF2-EB1B-4719-840B-88388D187B5F" ModuleId="BuildService" />
+  <Module PersistentId="5BB208E4-3AE8-4447-BBDE-F0268EB75255" ModuleId="Developer Punisher Tests" />
+  <Module PersistentId="3B10C30B-4478-42B3-82BA-D62C4E3BB5E1" ModuleId="Developer Punisher" />
+  <Module PersistentId="2AFCB86F-6E26-47F4-AFA6-83356D053488" ModuleId="WCFServices" />
+</Modules>

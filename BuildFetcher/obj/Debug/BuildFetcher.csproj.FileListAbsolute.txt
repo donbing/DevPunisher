@@ -1,0 +1,5 @@
+C:\Users\Chris\Desktop\devpunisher\BuildFetcher\bin\Debug\BuildFetcher.dll
+C:\Users\Chris\Desktop\devpunisher\BuildFetcher\bin\Debug\BuildFetcher.pdb
+C:\Users\Chris\Desktop\devpunisher\BuildFetcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\BuildFetcher\obj\Debug\BuildFetcher.dll
+C:\Users\Chris\Desktop\devpunisher\BuildFetcher\obj\Debug\BuildFetcher.pdb

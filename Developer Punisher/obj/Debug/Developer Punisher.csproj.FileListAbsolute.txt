@@ -1,0 +1,6 @@
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher\bin\Debug\Developer Punisher.dll.config
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher\bin\Debug\Developer Punisher.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher\bin\Debug\Developer Punisher.pdb
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher\obj\Debug\Developer Punisher.dll
+C:\Users\Chris\Desktop\devpunisher\Developer Punisher\obj\Debug\Developer Punisher.pdb
