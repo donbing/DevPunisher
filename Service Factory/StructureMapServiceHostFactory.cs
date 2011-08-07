@@ -1,30 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.ServiceModel.Activation;
 using System.ServiceModel;
 using StructureMap;
 
 namespace Service_Factory
 {
-    public class StructureMapServiceHostFactory : ServiceHostFactory
+    public class StructureMapServiceHostFactory : ServiceHostFactoryBase
     {
+        readonly IContainer container;
+
         public StructureMapServiceHostFactory()
         {
-            ObjectFactory.Initialize(factory =>{
-				factory.Scan(x => {
-					x.AssembliesFromApplicationBaseDirectory();
-					x.TheCallingAssembly();
-					x.WithDefaultConventions();
-				
-				});
-			});
+            container = new Container(factory => 
+                factory.Scan(x => {
+                    x.AssembliesFromApplicationBaseDirectory();
+                    x.TheCallingAssembly();
+                    x.WithDefaultConventions();
+                })
+            );
         }
 
-        protected override ServiceHost CreateServiceHost(Type serviceType, Uri[] baseAddresses)
+        protected ServiceHost CreateServiceHost(Type serviceType, Uri[] baseAddresses)
         {
-            return new StructureMapServiceHost(serviceType, baseAddresses);
+            return new StructureMapServiceHost(container, serviceType, baseAddresses);
+        }
+
+        public override ServiceHostBase CreateServiceHost(string constructorString, Uri[] baseAddresses)
+        {
+            var t = Type.GetType(constructorString, true);
+            
+            return CreateServiceHost(t, baseAddresses);
         }
     }
 }

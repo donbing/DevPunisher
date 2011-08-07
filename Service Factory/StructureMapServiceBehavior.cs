@@ -1,28 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.ServiceModel.Dispatcher;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.Collections.ObjectModel;
 using System.ServiceModel.Channels;
+using StructureMap;
 
 namespace Service_Factory
 {
     public class StructureMapServiceBehavior : IServiceBehavior
     {
+        private readonly IContainer container;
+
+        public StructureMapServiceBehavior(IContainer container)
+        {
+            this.container = container;
+        }
+
         public void ApplyDispatchBehavior(ServiceDescription serviceDescription, ServiceHostBase serviceHostBase)
         {
-            foreach (ChannelDispatcherBase cdb in serviceHostBase.ChannelDispatchers)
+            foreach (var cdb in serviceHostBase.ChannelDispatchers)
             {
-                ChannelDispatcher cd = cdb as ChannelDispatcher;
+                var cd = cdb as ChannelDispatcher;
                 if (cd != null)
                 {
-                    foreach (EndpointDispatcher ed in cd.Endpoints)
+                    foreach (var ed in cd.Endpoints)
                     {
-                        ed.DispatchRuntime.InstanceProvider =
-                            new StructureMapInstanceProvider(serviceDescription.ServiceType);
+                        ed.DispatchRuntime.InstanceProvider = new StructureMapInstanceProvider(container, serviceDescription.ServiceType);
                     }
                 }
             }

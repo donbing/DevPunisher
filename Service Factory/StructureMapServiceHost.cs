@@ -1,25 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.ServiceModel;
+using StructureMap;
 
 namespace Service_Factory
 {
     public class StructureMapServiceHost : ServiceHost
     {
+        private readonly IContainer container;
+
         public StructureMapServiceHost()
         {
         }
 
-        public StructureMapServiceHost(Type serviceType, params Uri[] baseAddresses)
+        public StructureMapServiceHost(IContainer container, Type serviceType, params Uri[] baseAddresses)
             : base(serviceType, baseAddresses)
         {
+            this.container = container;
         }
 
         protected override void OnOpening()
         {
-            Description.Behaviors.Add(new StructureMapServiceBehavior());
+            Description.Behaviors.Add(new StructureMapServiceBehavior(container));
             base.OnOpening();
         }
     }

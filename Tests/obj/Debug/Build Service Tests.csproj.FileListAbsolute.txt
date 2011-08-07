@@ -10,3 +10,20 @@ C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildService.dll
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildService.pdb
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildFetcher.dll
 C:\Users\Ricco\Desktop\BuildWatcher\Tests\bin\Debug\BuildFetcher.pdb
+C:\Users\Chris\Desktop\devpunisher\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\devpunisher\Tests\obj\Debug\BuildService.Tests.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\obj\Debug\BuildService.Tests.pdb
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildService.Tests.dll.config
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildService.Tests.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildService.Tests.pdb
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildFetcher.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildService.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\nunit.framework.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\Service Factory.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\StructureMap.dll
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildFetcher.pdb
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\Service Factory.pdb
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\StructureMap.xml
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildService.pdb
+C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\Rhino.Mocks.xml
