@@ -3,3 +3,8 @@ C:\Users\Chris\Desktop\devpunisher\BuildFetcher\bin\Debug\BuildFetcher.pdb
 C:\Users\Chris\Desktop\devpunisher\BuildFetcher\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Chris\Desktop\devpunisher\BuildFetcher\obj\Debug\BuildFetcher.dll
 C:\Users\Chris\Desktop\devpunisher\BuildFetcher\obj\Debug\BuildFetcher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\BuildFetcher\bin\Debug\BuildFetcher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\BuildFetcher\bin\Debug\BuildFetcher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\BuildFetcher\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\BuildFetcher\obj\Debug\BuildFetcher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\BuildFetcher\obj\Debug\BuildFetcher.pdb

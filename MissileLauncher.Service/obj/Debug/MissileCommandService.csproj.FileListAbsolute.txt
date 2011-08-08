@@ -3,3 +3,8 @@ C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\bin\MissileCommandSer
 C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\bin\MissileCommandService.pdb
 C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\obj\Debug\MissileCommandService.dll
 C:\Users\Chris\Desktop\devpunisher\MissileLauncher.Service\obj\Debug\MissileCommandService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\MissileLauncher.Service\bin\MissileCommandService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\MissileLauncher.Service\bin\MissileCommandService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\MissileLauncher.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\MissileLauncher.Service\obj\Debug\MissileCommandService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\MissileLauncher.Service\obj\Debug\MissileCommandService.pdb

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2AFCB86F-6E26-47F4-AFA6-83356D053488}</ProjectGuid>
     <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,7 +60,7 @@
   -->
   <ProjectExtensions>
     <VisualStudio>
-      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
@@ -69,6 +69,9 @@
           <IISUrl>
           </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
@@ -80,6 +83,10 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
+    <ProjectReference Include="..\MissileLauncher.Device\MissileDeviceDriver.csproj">
+      <Project>{499CBF64-9FD2-40F1-9898-0901202E4E31}</Project>
+      <Name>MissileDeviceDriver</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Service Factory\Service Factory.csproj">
       <Project>{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}</Project>
       <Name>Service Factory</Name>

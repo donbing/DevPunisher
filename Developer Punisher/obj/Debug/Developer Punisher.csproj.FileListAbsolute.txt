@@ -4,3 +4,9 @@ C:\Users\Chris\Desktop\devpunisher\Developer Punisher\bin\Debug\Developer Punish
 C:\Users\Chris\Desktop\devpunisher\Developer Punisher\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Chris\Desktop\devpunisher\Developer Punisher\obj\Debug\Developer Punisher.dll
 C:\Users\Chris\Desktop\devpunisher\Developer Punisher\obj\Debug\Developer Punisher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher\bin\Debug\Developer Punisher.dll.config
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher\bin\Debug\Developer Punisher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher\bin\Debug\Developer Punisher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher\obj\Debug\Developer Punisher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher\obj\Debug\Developer Punisher.pdb

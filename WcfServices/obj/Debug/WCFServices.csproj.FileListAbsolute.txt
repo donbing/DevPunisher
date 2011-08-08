@@ -11,3 +11,20 @@ C:\Users\Chris\Desktop\devpunisher\WcfServices\obj\Debug\MissileLauncher.Service
 C:\Users\Chris\Desktop\devpunisher\WcfServices\obj\Debug\MissileLauncher.Service.pdb
 C:\Users\Chris\Desktop\devpunisher\WcfServices\bin\Service Factory.pdb
 C:\Users\Chris\Desktop\devpunisher\WcfServices\bin\StructureMap.xml
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\MissileLauncher.Service.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\MissileLauncher.Service.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\BuildService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\Service Factory.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\StructureMap.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\BuildFetcher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\Service Factory.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\StructureMap.xml
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\BuildService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\BuildFetcher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\obj\Debug\MissileLauncher.Service.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\obj\Debug\MissileLauncher.Service.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\MissileLauncher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\MissileCommandService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\MissileCommandService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\WcfServices\bin\MissileLauncher.pdb

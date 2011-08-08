@@ -27,3 +27,20 @@ C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\Service Factory.pdb
 C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\StructureMap.xml
 C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\BuildService.pdb
 C:\Users\Chris\Desktop\devpunisher\Tests\bin\Debug\Rhino.Mocks.xml
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildService.Tests.dll.config
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildService.Tests.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildService.Tests.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildFetcher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\nunit.framework.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\Rhino.Mocks.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\Service Factory.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\StructureMap.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildFetcher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\Service Factory.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\StructureMap.xml
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\BuildService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\bin\Debug\Rhino.Mocks.xml
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\obj\Debug\BuildService.Tests.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Tests\obj\Debug\BuildService.Tests.pdb

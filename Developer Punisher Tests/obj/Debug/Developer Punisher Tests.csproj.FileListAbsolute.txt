@@ -8,3 +8,13 @@ C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Developer 
 C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\obj\Debug\Developer_Punisher.Tests.dll
 C:\Users\Chris\Desktop\devpunisher\Developer Punisher Tests\obj\Debug\Developer_Punisher.Tests.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\Developer_Punisher.Tests.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\Developer_Punisher.Tests.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\Developer Punisher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\nunit.framework.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\Developer Punisher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\bin\Debug\Rhino.Mocks.xml
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\obj\Debug\Developer_Punisher.Tests.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\Developer Punisher Tests\obj\Debug\Developer_Punisher.Tests.pdb

@@ -5,3 +5,10 @@ C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\bin\BuildFetcher.pdb
 C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\obj\Debug\BuildService.dll
 C:\Users\Chris\Desktop\devpunisher\HudsonWcfService\obj\Debug\BuildService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\bin\BuildService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\bin\BuildService.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\bin\BuildFetcher.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\bin\BuildFetcher.pdb
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\obj\Debug\ResolveAssemblyReference.cache
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\obj\Debug\BuildService.dll
+C:\msysgit\msysgit\git\punisher\DevPunisher\HudsonWcfService\obj\Debug\BuildService.pdb
