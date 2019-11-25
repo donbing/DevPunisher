@@ -1,19 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeveloperPunisher", "DeveloperPunisher", "{8CCD4B47-5BD0-4863-B1F1-9CB43803B61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Punisher", "Developer Punisher\Developer Punisher.csproj", "{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B9E8462D-25A9-4673-A5E1-8AEDC4A78068} = {B9E8462D-25A9-4673-A5E1-8AEDC4A78068}
-		{41522CF2-EB1B-4719-840B-88388D187B5F} = {41522CF2-EB1B-4719-840B-88388D187B5F}
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7B9C8C25-09B9-4433-B251-70C3205A29B3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Factory", "Service Factory\Service Factory.csproj", "{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServices", "WcfServices\WCFServices.csproj", "{2AFCB86F-6E26-47F4-AFA6-83356D053488}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AA579BB-6070-4C2E-9578-A951CB11BB02}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,11 +15,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissileLauncher", "MissileLauncher", "{29AD2F56-31AC-40AC-8A6B-C06C7EC42F0A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1DC61BBC-3BA6-40FD-B3C4-0A2DD6053A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hudson", "Hudson", "{C4B09139-C58F-4426-8C26-C9ECED7E8B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Punisher", "Developer Punisher\Developer Punisher.csproj", "{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41522CF2-EB1B-4719-840B-88388D187B5F} = {41522CF2-EB1B-4719-840B-88388D187B5F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Factory", "Service Factory\Service Factory.csproj", "{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServices", "WcfServices\WCFServices.csproj", "{2AFCB86F-6E26-47F4-AFA6-83356D053488}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissileDeviceDriver", "MissileLauncher.Device\MissileDeviceDriver.csproj", "{499CBF64-9FD2-40F1-9898-0901202E4E31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissileCommandService", "MissileLauncher.Service\MissileCommandService.csproj", "{2AFCB86F-6E26-47F4-AFA6-83356D053489}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1DC61BBC-3BA6-40FD-B3C4-0A2DD6053A7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build Service Tests", "Tests\Build Service Tests.csproj", "{F6004944-C4EA-46FA-A6C1-EB51AAFC6C00}"
 EndProject
@@ -35,11 +38,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build Fetcher Tests", "Buil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Punisher Tests", "Developer Punisher Tests\Developer Punisher Tests.csproj", "{5BB208E4-3AE8-4447-BBDE-F0268EB75255}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hudson", "Hudson", "{C4B09139-C58F-4426-8C26-C9ECED7E8B82}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildService", "HudsonWcfService\BuildService.csproj", "{41522CF2-EB1B-4719-840B-88388D187B5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildFetcher", "BuildFetcher\BuildFetcher.csproj", "{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUsbMissileDeviceDriver", "LibUsbMissileDeviceDriver\LibUsbMissileDeviceDriver.csproj", "{82CBD8A1-2FA9-487C-A881-9F0CCF7F077C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,46 +50,53 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41522CF2-EB1B-4719-840B-88388D187B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41522CF2-EB1B-4719-840B-88388D187B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41522CF2-EB1B-4719-840B-88388D187B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41522CF2-EB1B-4719-840B-88388D187B5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C43F3DF6-9F39-4D47-98B1-3C0781C05F2D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499CBF64-9FD2-40F1-9898-0901202E4E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFCB86F-6E26-47F4-AFA6-83356D053489}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F6004944-C4EA-46FA-A6C1-EB51AAFC6C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6004944-C4EA-46FA-A6C1-EB51AAFC6C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6004944-C4EA-46FA-A6C1-EB51AAFC6C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6004944-C4EA-46FA-A6C1-EB51AAFC6C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4AFA60-725B-46A7-97F7-3308B2B8B3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB208E4-3AE8-4447-BBDE-F0268EB75255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41522CF2-EB1B-4719-840B-88388D187B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41522CF2-EB1B-4719-840B-88388D187B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41522CF2-EB1B-4719-840B-88388D187B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41522CF2-EB1B-4719-840B-88388D187B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CBD8A1-2FA9-487C-A881-9F0CCF7F077C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CBD8A1-2FA9-487C-A881-9F0CCF7F077C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CBD8A1-2FA9-487C-A881-9F0CCF7F077C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CBD8A1-2FA9-487C-A881-9F0CCF7F077C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3B10C30B-4478-42B3-82BA-D62C4E3BB5E1} = {8CCD4B47-5BD0-4863-B1F1-9CB43803B61C}
@@ -99,11 +109,12 @@ Global
 		{5BB208E4-3AE8-4447-BBDE-F0268EB75255} = {1DC61BBC-3BA6-40FD-B3C4-0A2DD6053A7F}
 		{41522CF2-EB1B-4719-840B-88388D187B5F} = {C4B09139-C58F-4426-8C26-C9ECED7E8B82}
 		{CF40A50D-2807-4FD5-A1F3-1DC3844DD1AF} = {C4B09139-C58F-4426-8C26-C9ECED7E8B82}
+		{82CBD8A1-2FA9-487C-A881-9F0CCF7F077C} = {29AD2F56-31AC-40AC-8A6B-C06C7EC42F0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FF18FC8-2190-446F-AA95-324FB790B5DA}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = HudsonWcfService\BuildService.csproj
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
